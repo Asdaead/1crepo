@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c7c3ea4-d5ec-412b-92f7-1ff4a878d161">
+  <producedTypes>
+    <selectionType typeId="27b0ad99-53c8-4582-bacc-16d8994128fd" valueTypeId="9929f6b2-f421-40df-ac58-c97c7f12ace4"/>
+    <listType typeId="4209de84-4aef-4201-a979-24323881642b" valueTypeId="e6816afc-902c-4fd6-a388-17096847eeed"/>
+    <managerType typeId="d2e5ba35-d8d9-4d9e-96ab-101f3f41dedc" valueTypeId="0a3d537d-03e4-49a1-b85f-5c48a83f7be6"/>
+    <recordSetType typeId="d3b04811-1d76-4876-a116-8d34a1e4a74a" valueTypeId="78603896-d5b0-48e2-a53a-3681177592a0"/>
+    <recordKeyType typeId="9dd5f3cf-654a-466c-a8aa-ff83fe63b5ca" valueTypeId="3186a16e-2175-4b58-a471-f984188a2cdf"/>
+    <recordType typeId="77a4fcfb-c535-4be9-bf75-32350553f62f" valueTypeId="76992ab2-8696-47a9-a222-e8cad37ac63c"/>
+    <recordManagerType typeId="97ac1e10-5dec-4bbf-a56d-1cf900c9d7d1" valueTypeId="ec5a2a63-c856-4e16-8d44-4a3f4097fa69"/>
+  </producedTypes>
+  <name>АктуальныйМетод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуальный метод</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="0b4c9766-9d27-4a42-a10c-03f82cf20c2b">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УчетнаяПолитика</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

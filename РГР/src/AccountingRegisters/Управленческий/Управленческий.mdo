@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f151c05a-a68a-4a45-a979-152d4dcee27e">
+  <producedTypes>
+    <selectionType typeId="c7173398-947b-4b2e-9888-969d2218f480" valueTypeId="b7b97db5-2e25-4ba0-a809-81bd2390ec96"/>
+    <listType typeId="e7346966-75b5-4f87-958f-77f730105046" valueTypeId="6cb39d3e-61b4-403d-9061-b107a76960ab"/>
+    <managerType typeId="64fc8b57-ec59-44af-864b-7d929f7c1a70" valueTypeId="77091305-518c-4037-ad76-68a0b7dae3bd"/>
+    <recordSetType typeId="5a3f7230-0d65-4284-879c-452d70942c86" valueTypeId="96c63fed-b2d3-42cf-9e4f-35d403514026"/>
+    <recordKeyType typeId="a26b008d-8089-4741-84d2-dddbbb56abf2" valueTypeId="a26a85e9-606e-4964-9a06-5b16f6c49661"/>
+    <recordType typeId="06186596-d142-4b9c-a2be-d6eeb2dd985d" valueTypeId="8ec23f84-a59e-4b76-92a4-ac8bedaf9457"/>
+    <extDimensionsType typeId="5ba787cf-5dad-4d9a-96b8-8a3e70c42a44" valueTypeId="cc7ad7bc-a144-42be-96c8-33a160b8e6a3"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="f0a57291-3507-4030-9fab-95678d35864b">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+</mdclass:AccountingRegister>
